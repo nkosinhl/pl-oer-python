@@ -1,0 +1,10 @@
+<pl-question-panel>
+<p>What is the value of the variable <code>x</code> after the following piece of code executes?  Compute your answer to at least two decimal digits.</p>
+<pl-code language="python" prevent-select=true>
+{{params.expression}}
+</pl-code>
+</pl-question-panel>
+
+<pl-number-input answers-name="result" comparison="relabs" rtol=1e-4 atol=.01></pl-number-input>
+
+
