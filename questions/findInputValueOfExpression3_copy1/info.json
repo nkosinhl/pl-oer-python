@@ -1,0 +1,18 @@
+{
+    "uuid": "4638b2e3-26a9-41bc-94fa-e430525fbee7",
+    "title": "Find Input from Output: Value of arithmetic expression (copy 1)",
+    "topic": "Coding",
+    "tags": [
+        "mhassancs",
+        "v3",
+        "short_answer"
+    ],
+    "type": "v3",
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 20
+    }
+}

@@ -1,0 +1,16 @@
+<pl-question-panel>
+<p>Input a value for the variable <code>y</code> such that the variable <code>x</code> is <code>{{params.result}}</code> after the code executes.</p>
+<p><pl-string-input display="inline" answers-name="y" label="y ="></pl-string-input></p>
+<pl-code language="python" prevent-select=true>
+x = {{params.expression}}
+</pl-code>
+</pl-question-panel>
+
+<pl-answer-panel>
+{{{correct_answers.feedback}}}
+</pl-answer-panel>
+
+<pl-submission-panel>
+<pl-external-grader-results></pl-external-grader-results>
+</pl-submission-panel>
+
