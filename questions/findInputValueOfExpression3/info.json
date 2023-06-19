@@ -1,0 +1,24 @@
+{
+    "uuid": "2ca82aec-eaf4-46bc-b551-016d53a6ac5b",
+    "title": "Find Input from Output: Value of arithmetic expression",
+    "topic": "Coding",
+    "tags": [
+        "mhassancs",
+        "v3",
+        "short_answer",
+        "FA19_hw",
+        "SP20_hw",
+        "SU20_hw"
+    ],
+    "type": "v3",
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/centos7-python",
+        "serverFilesCourse": [
+            "python_autograder/"
+        ],
+        "entrypoint": "/grade/serverFilesCourse/python_autograder/run_string_input.sh",
+        "timeout": 20
+    }
+}
