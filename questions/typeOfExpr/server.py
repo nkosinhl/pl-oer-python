@@ -3,6 +3,10 @@ import random, copy, json
 def fractionOfTime(percent):
     return random.random() < percent
 
+# Randomly generate an int or a float (based on the above)
+def randomNumber(percentage = 0.5):
+    return randomInt() if fractionOfTime(percentage) else randomFloat()
+
 def generate(data):
 
     operators = [' + ', ' - ', ' * ', ' / ', ' // ', ' % ', ' ** ']
