@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 templates = [('Written', "{0} = {2}"),
              ('Written', "{0} = {1}"), 
