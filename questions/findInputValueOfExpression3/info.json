@@ -5,20 +5,14 @@
     "tags": [
         "mhassancs",
         "v3",
-        "short_answer",
-        "FA19_hw",
-        "SP20_hw",
-        "SU20_hw"
+        "short_answer"
     ],
     "type": "v3",
     "gradingMethod": "External",
     "externalGradingOptions": {
         "enabled": true,
-        "image": "prairielearn/centos7-python",
-        "serverFilesCourse": [
-            "python_autograder/"
-        ],
-        "entrypoint": "/grade/serverFilesCourse/python_autograder/run_string_input.sh",
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
         "timeout": 20
     }
 }
