@@ -11,6 +11,19 @@ def randomFruit(k = 1):
     selection = random.sample(fruits, k)
     return selection[0] if k == 1 else selection
 
+def stringContentsSameIndependentOfQuoteTypes(submitted, correct):
+    quotes = ['"', "'"]
+    if len(submitted) == 0:
+        return False
+    if submitted[0] not in quotes:
+        return False
+    if submitted[0] != submitted[-1]:
+        return False
+    if submitted[1:-1] != correct[1:-1]:
+        return False
+    return True
+    
+
 def generate(data):
 
     text = "\n".join(randomFruit(3))
