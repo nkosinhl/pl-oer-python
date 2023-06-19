@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 templates = [("{0} + {1} * {2}", "Remember that multiplication has precedence over addition"),
 ("{0} - {1} * {2}", "Remember that multiplication has precedence over subtraction"),
