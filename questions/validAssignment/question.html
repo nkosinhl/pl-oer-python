@@ -1,0 +1,16 @@
+<pl-question-panel>
+<p>Is the following arithmetic statement valid or invalid Python code?</p>
+<p><i>Assume that all of the variables have been previously defined and contain numbers other than zero.</i></p>
+<pl-code language="python" prevent-select=true>
+{{params.code}}
+</pl-code>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="sky-color1">
+  <pl-answer correct="true">{{params.one}}</pl-answer>
+  <pl-answer>{{params.two}}</pl-answer>
+</pl-multiple-choice>
+
+<pl_answer_panel>
+<p>{{{correct_answers.feedback}}}</p>
+</pl_answer_panel>
