@@ -1,5 +1,8 @@
 import random, copy, json
 
+def fractionOfTime(percent):
+    return random.random() < percent
+
 def randomQuote():
     return '"' if fractionOfTime(0.5) else "'"
 
