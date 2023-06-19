@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 templates = [(True, "{0} = {2}", ""), 
              (False, "{2} = {0}", "The left side of an assignment has to be a single variable name"), 
