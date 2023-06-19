@@ -1,5 +1,12 @@
 import random, copy, json
-from pythonHelper import *
+
+def randomQuote():
+    return '"' if fractionOfTime(0.5) else "'"
+
+def randomFruit(k = 1):
+    fruits = ["Apple", "Akee", "Apricot", "Avocado", "Banana", "Bilberry", "Blackberry", "Blackcurrant", "Blueberry", "Boysenberry", "Currant", "Cherry", "Cloudberry", "Coconut", "Cranberry", "Cucumber", "Damson", "Date", "Durian", "Elderberry", "Feijoa", "Fig", "Gooseberry", "Grape", "Raisin", "Grapefruit", "Guava", "Honeyberry", "Huckleberry", "Jabuticaba", "Jackfruit", "Jambul", "Jostaberry", "Jujube", "Kiwifruit", "Kumquat", "Lemon", "Lime", "Loquat", "Longan", "Lychee", "Mango", "Mangosteen", "Marionberry", "Melon", "Cantaloupe", "Honeydew", "Watermelon", "Mulberry", "Nectarine", "Nance", "Orange", "Clementine", "Mandarine", "Tangerine", "Papaya", "Passionfruit", "Peach", "Pear", "Persimmon", "Plantain", "Plum", "Pineapple", "Pineberry", "Pomegranate", "Pomelo", "Quince", "Raspberry", "Salmonberry", "Redcurrant", "Salak", "Satsuma", "Soursop", "Strawberry", "Tamarillo", "Tamarind", "Yuzu"]
+    selection = random.sample(fruits, k)
+    return selection[0] if k == 1 else selection
 
 def generate(data):
 
