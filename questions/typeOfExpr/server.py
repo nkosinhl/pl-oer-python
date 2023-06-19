@@ -3,9 +3,22 @@ import random, copy, json
 def fractionOfTime(percent):
     return random.random() < percent
 
+# Random integer between -100 and 100 (inclusive)
+def randomInt():
+    return str(random.randint(-100, 100))
+
+# Random float between -100.99 and 100.99 (inclusive)
+def randomFloat():
+    value = random.randint(-100, 100)    
+    return str(value) + '.' + str(random.randint(0, 99))
+
 # Randomly generate an int or a float (based on the above)
 def randomNumber(percentage = 0.5):
     return randomInt() if fractionOfTime(percentage) else randomFloat()
+
+def randomQuote():
+    return '"' if fractionOfTime(0.5) else "'"
+
 
 def generate(data):
 
@@ -14,7 +27,7 @@ def generate(data):
 
     exprStr = randomNumber(.75) + random.choice(operators) + randomNumber(.75)
     if fractionOfTime(0.15):
-        quote = '"' if fractionOfTime(0.5) else "'"
+        quote = randomQuote()
         exprStr = quote + exprStr + quote
         answer = "string"
     else:
