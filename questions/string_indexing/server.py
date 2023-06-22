@@ -1,5 +1,12 @@
 import random, copy, json
 
+# Random string containing characters
+def randomString(baselength = 0):
+    letters = ["a","b","c","d","e","f","g","h","i","j","k","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    random.shuffle(letters)
+    quote = '"' if fractionOfTime(0.5) else "'"
+    return quote + "".join(letters[:random.randint(baselength+1, baselength+7)]) + quote
+
 def stringContentsSameIndependentOfQuoteTypes(submitted, correct):
     quotes = ['"', "'"]
     if len(submitted) == 0:
