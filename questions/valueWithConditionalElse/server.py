@@ -1,8 +1,10 @@
 import random, copy, json
-from pythonHelper import *
 
 correct_templates = ["{0} < {1}", "{0} > {3}", "{0} <= {1}", "{0} >= {3}", "{0} <= {2}", "{0} >= {2}", "{0} == {2}", "{0} != {3}"]
 incorrect_templates = ["{0} > {1}", "{0} < {3}", "{0} >= {1}", "{0} <= {3}", "{0} == {1}", "{0} != {2}"]
+
+def fractionOfTime(percent):
+    return random.random() < percent
 
 def generate_conditional(x_val):
     compare_val = x_val + random.randint(1, 10)
