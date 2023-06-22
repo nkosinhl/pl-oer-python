@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 def generate(data):
 
