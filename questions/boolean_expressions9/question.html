@@ -1,0 +1,15 @@
+<pl-question-panel>
+<p>If the variable <code>{{params.name}}</code> contains the value <code>{{params.value}}</code>, does this boolean expression evaluate to <code>True</code> or <code>False</code>?</p>
+<pl-code language="python" prevent-select=true>
+{{params.code}}
+</pl-code>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answers">
+  <pl-answer correct="true">{{params.correct}}</pl-answer>
+  <pl-answer               >{{params.incorrect}}</pl-answer>
+</pl-multiple-choice>
+
+
+
+
