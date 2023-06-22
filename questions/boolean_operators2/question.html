@@ -1,0 +1,19 @@
+<pl-question-panel>
+<p>Does this boolean expression evaluate to <code>True</code> or <code>False</code>?</p>
+<pl-code language="python" prevent-select=true>
+{{params.code}}
+</pl-code>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answers">
+  <pl-answer correct="true">{{params.correct}}</pl-answer>
+  <pl-answer               >{{params.incorrect}}</pl-answer>
+</pl-multiple-choice>
+
+<pl-answer-panel>
+<br>
+The <code>and</code> operator has higher precedence than the <code>or</code> operator, but parentheses elevates the precedence of any enclosed expression.
+</pl-answer-panel>
+
+
+
