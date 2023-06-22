@@ -1,0 +1,24 @@
+{
+    "uuid": "47a5dab4-808a-4e85-b2dd-1950044453d5",
+    "title": "Find Input from Output: Value of a conditional expression",
+    "topic": "Conditionals",
+    "tags": [
+        "mhassancs",
+        "v3",
+        "Execute",
+        "short_answer",
+        "FA19_hw",
+        "SP20_hw"
+    ],
+    "type": "v3",
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/centos7-python",
+        "serverFilesCourse": [
+            "python_autograder/"
+        ],
+        "entrypoint": "/grade/serverFilesCourse/python_autograder/run_string_input.sh",
+        "timeout": 20
+    }
+}
