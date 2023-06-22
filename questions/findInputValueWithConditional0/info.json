@@ -11,14 +11,4 @@
         "SP20_hw"
     ],
     "type": "v3",
-    "gradingMethod": "External",
-    "externalGradingOptions": {
-        "enabled": true,
-        "image": "prairielearn/centos7-python",
-        "serverFilesCourse": [
-            "python_autograder/"
-        ],
-        "entrypoint": "/grade/serverFilesCourse/python_autograder/run_string_input.sh",
-        "timeout": 20
-    }
 }
