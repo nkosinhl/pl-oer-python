@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 correct_templates = ["{0} < {1}", "{1} > {0}"]
 incorrect_templates = ["{0} > {1}", "{1} < {0}"]
