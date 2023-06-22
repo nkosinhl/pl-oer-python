@@ -1,6 +1,5 @@
 import re
 import random, copy, json
-from pythonHelper import *
 
 correct_templates = ["{0} < {1}", "{1} > {0}", "{0} <= {1}", "{1} >= {0}", "{0} <= {2}", "{0} >= {2}", "{0} == {2}", "{0} != {1}", "{1} != {0}"]
 incorrect_templates = ["{0} > {1}", "{1} < {0}", "{0} >= {1}", "{1} <= {0}", "{0} == {1}", "{1} == {0}", "{0} != {2}"]
@@ -32,16 +31,37 @@ def generate(data):
        else:
           result -= offset
 
+    data['correct_answers']['line1'] = str(x_val)
+    data['correct_answers']['line2'] = str(y_val)
+    
     ran = random.choice([0, 1, 2])
     if ran == 0 and compare_var == 'x':
         data['params']['code'] = 'x = k\ny = {1}\nif {2}:\n    x {3}= {4}'.format(x_val, y_val, condition, arith_op, offset)
+        data['correct_answers']['line1'] = 'k'
+        
     elif ran == 1 and compare_var == 'y':
         data['params']['code'] = 'x = {0}\ny = k\nif {2}:\n    x {3}= {4}'.format(x_val, y_val, condition, arith_op, offset)
+        data['correct_answers']['line2'] = 'k'
     else:
-        #condition = template.format("k", compare_val, compare_var_val) #buggy, sometimes there will be no k this way, which means any answer works sometimes
         condition = ("k " + template.split(" ")[1] + " " + template.split(" ")[2]).format(compare_var, compare_val, compare_var_val)
         data['params']['code'] = 'x = {0}\ny = {1}\nif {2}:\n    x {3}= {4}'.format(x_val, y_val, condition, arith_op, offset)
-    #else:
-        #condition = template.format(compare_var, compare_val, "k")
-        #data['params']['code'] = 'x = {0}\ny = {1}\nif {2}:\n    x {3}= {4}'.format(x_val, y_val, condition, arith_op, offset)
+        
+    data['correct_answers']['line3'] = f'(x {arith_op} {offset}) if {condition} else x'
+        
     data['params']['result'] = result
+
+def parse(data):
+    try:
+        int(data["submitted_answers"]["k"])
+    except:
+        data["format_errors"]["k"] = "Not a valid integer"
+
+def grade(data):
+    k = int(data["submitted_answers"]["k"])
+    x = eval(data['correct_answers']['line1'])    
+    y = eval(data['correct_answers']['line2'])    
+    x = eval(data['correct_answers']['line3'])    
+    correct = data['params']['result']
+    data["score"] = 1 if (x == correct) else 0
+    data["partial_scores"]["result"] = { "score": data["score"] }
+        
