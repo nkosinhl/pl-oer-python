@@ -1,0 +1,25 @@
+{
+    "uuid": "356a4337-fc7e-49ee-827c-9aecfebfe320",
+    "title": "Fix code to return the value for a key in a dictionary if it exists",
+    "topic": "Conditionals",
+    "tags": [
+        "code",
+        "v3",
+        "programming",
+        "fix",
+        "mfwlr",
+        "FA20_hw"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/centos7-python",
+        "serverFilesCourse": [
+            "python_autograder/"
+        ],
+        "entrypoint": "/grade/serverFilesCourse/python_autograder/run.sh",
+        "timeout": 20
+    }
+}

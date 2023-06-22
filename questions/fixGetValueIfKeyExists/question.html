@@ -1,0 +1,20 @@
+<pl-question-panel>
+    <p>
+    The function below, <code>get_value_if_key</code>, takes two arguments: the dictionary <code>data_dict</code> and a key of any type <code>my_key</code>.  
+    Fix the code to return the value from <code>data_dict</code> for key <code>my_key</code> if that key exists. The function should not return anything
+    otherwise (i.e. return <code>None</code>).
+    </p>
+    <pl-file-editor file-name="student.py" ace-mode="ace/mode/python">
+def get_value_if_key(data_dict, my_key):
+    if "my_key" in data_dict:
+        return data_dict("my_key")
+    return "None"
+  
+    </pl-file-editor>
+  </pl-question-panel>
+  
+  <pl-submission-panel>
+    <pl-file-preview></pl-file-preview>
+    <pl-external-grader-results></pl-external-grader-results>
+  </pl-submission-panel>
+  
