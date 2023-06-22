@@ -1,0 +1,11 @@
+<pl-question-panel>
+    {{params.prompt}}
+</pl-question-panel>
+<pl-order-blocks answers-name="read-nums" indentation=true grading-method="ranking" feedback="first-wrong" format="code" code-language="python">
+    {{#params.correct_blocks}}
+        <pl-answer correct="true" indent={{indent}} ranking={{ranking}}>{{block}}</pl-answer>  
+    {{/params.correct_blocks}}
+    {{#params.incorrect_blocks}}
+        <pl-answer correct="false">{{block}}</pl-answer>  
+    {{/params.incorrect_blocks}}
+</pl-order-blocks>

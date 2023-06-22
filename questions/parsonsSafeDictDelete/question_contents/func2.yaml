@@ -1,0 +1,27 @@
+Correct:
+- block: 'def remove_dict_pair(d, key):'
+  indent: 0
+  ranking: 1
+- block: 'if key in d:'
+  indent: 1
+  ranking: 2
+- block: del d[key]
+  indent: 2
+  ranking: 3
+- block: 'else:'
+  indent: 1
+  ranking: 4
+- block: 'print(''Key is not in dictionary'')'
+  indent: 2
+  ranking: 5
+Incorrect:
+- block: d.del[key]
+- block: d.del(key)
+- block: del d(key)
+- block: d.pop[key]
+- block: d.remove[key]
+- block: d.remove(key)
+Prompt: "Create a function remove_dict_pair that takes a two parameters: a dictionary\
+  \ (d)\n and a string (k). It should then check if key (k) is in the dictionary and,\
+  \ if\n it is, remove the key value pair associated with it. If it is not, it should\n\
+  \ output a message to the user indicating the key is not in the dictionary.\n"
