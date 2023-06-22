@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 types = ["list", "set", "dictionary"]
 versions = [("list", "Lists are specified using square brackets <code>[]</code>  with each element separated by a comma."),
