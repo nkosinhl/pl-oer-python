@@ -1,0 +1,26 @@
+{
+    "uuid": "a0cf5de1-caea-4068-8435-a30f3d8c2c4f",
+    "title": "Fix variable decrementing code",
+    "topic": "CodeFix",
+    "tags": [
+        "code",
+        "v3",
+        "CH3",
+        "programming",
+        "fix",
+        "SP20_hw",
+        "SU20_hw"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/centos7-python",
+        "serverFilesCourse": [
+            "python_autograder/"
+        ],
+        "entrypoint": "/grade/serverFilesCourse/python_autograder/run_make_function.sh",
+        "timeout": 20
+    }
+}
