@@ -1,5 +1,16 @@
 import random, copy, json
-from pythonHelper import *
+
+def stringContentsSameIndependentOfQuoteTypes(submitted, correct):
+    quotes = ['"', "'"]
+    if len(submitted) == 0:
+        return False
+    if submitted[0] not in quotes:
+        return False
+    if submitted[0] != submitted[-1]:
+        return False
+    if submitted[1:-1] != correct[1:-1]:
+        return False
+    return True
 
 def generate(data):
 
