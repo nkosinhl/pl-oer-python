@@ -1,0 +1,27 @@
+{
+    "uuid": "1d16ff2f-07a7-4a58-a5c2-3212110e8bf6",
+    "type": "Homework",
+    "title": "Homework 1",
+    "set": "Homework",
+    "number": "1",
+    "maxPoints": 45,
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "credit": 100
+        }
+    ],
+    "zones": [
+        {
+            "questions": [
+                {"id": "whichVarUpdated",                "points": 1, "maxPoints": 3},
+                {"id": "varReadOrWritten",               "points": 2, "maxPoints": 5},
+                {"id": "validAssignment",                "points": 1, "maxPoints": 10},
+                {"id": "typeOfExpr",                     "points": 2, "maxPoints": 10},
+                {"id": "string_literal_newline",         "points": 4, "maxPoints": 4},
+                {"id": "valueOfExpression2",             "points": 3, "maxPoints": 9},
+                {"id": "reverseTracingExpression3",    "points": 3, "maxPoints": 9}
+            ]
+        }
+    ]
+}
