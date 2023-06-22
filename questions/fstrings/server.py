@@ -38,7 +38,7 @@ def generate(data):
     my_fruit  = randomFruit()
 
     
-    fruit_as_variable = False # fractionOfTime(0.5)
+    fruit_as_variable = fractionOfTime(0.5)
     if fruit_as_variable: 
         things = ['{my_num}', '{my_fruit}', my_animal]
         other_def = "my_fruit = '" + my_fruit + "'"
