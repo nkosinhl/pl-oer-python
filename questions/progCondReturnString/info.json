@@ -1,0 +1,25 @@
+{
+    "uuid": "1bcc894c-9235-4ec6-9667-d451682c8675",
+    "title": "Returns a string depending on number",
+    "topic": "Conditionals",
+    "tags": [
+        "code",
+        "v3",
+        "programming",
+        "FA19_hw",
+        "SP20_hw",
+        "SU20_hw"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/centos7-python",
+        "serverFilesCourse": [
+            "python_autograder/"
+        ],
+        "entrypoint": "/grade/serverFilesCourse/python_autograder/run.sh",
+        "timeout": 20
+    }
+}
