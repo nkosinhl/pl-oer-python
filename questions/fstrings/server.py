@@ -3,6 +3,9 @@ import random, copy, json
 def fractionOfTime(percent):
     return random.random() < percent
 
+def randomQuote():
+    return '"' if fractionOfTime(0.5) else "'"
+
 # Random integer between -100 and 100 (inclusive)
 def randomInt():
     return str(random.randint(-100, 100))
