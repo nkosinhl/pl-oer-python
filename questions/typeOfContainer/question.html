@@ -1,0 +1,16 @@
+<pl-question-panel>
+<p>After the following piece of code executes, what is the type of the variable contained in x?</p>
+<pl-code language="python" prevent-select=true>
+x = {{params.code}}
+</pl-code>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="sky-color1">
+  <pl-answer correct="true">{{params.one}}</pl-answer>
+  <pl-answer>{{params.two}}</pl-answer>
+  <pl-answer>{{params.three}}</pl-answer>
+</pl-multiple-choice>
+
+<pl_answer_panel>
+<p>{{correct_answers.feedback}}</p>
+</pl_answer_panel>
