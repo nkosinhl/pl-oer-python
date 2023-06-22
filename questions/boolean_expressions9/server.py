@@ -1,5 +1,4 @@
 import random, copy, json
-from pythonHelper import *
 
 int_templates = ["{0} < {1} < {2}", "{0} <= {1} < {2}", "{0} < {1} <= {2}", "{0} <= {1} <= {2}",
              "({1} < {0}) or ({2} < {1})",   "({1} <= {0}) or ({2} < {1})",
