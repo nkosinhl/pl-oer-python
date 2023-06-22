@@ -1,13 +1,12 @@
 {
-    "uuid": "2ca82aec-eaf4-46bc-b551-016d53a6ac5b",
-    "title": "TODELETE: Find Input from Output: Value of arithmetic expression",
-    "topic": "Coding",
+    "uuid": "4d67c5ac-df0e-4dc6-a434-dd991c7e5e75",
+    "title": "Demo: Craig Testing",
+    "topic": "Autograder",
     "tags": [
-        "mhassancs",
-        "v3",
-        "short_answer"
+        "code"
     ],
     "type": "v3",
+    "singleVariant": true,
     "gradingMethod": "External",
     "externalGradingOptions": {
         "enabled": true,

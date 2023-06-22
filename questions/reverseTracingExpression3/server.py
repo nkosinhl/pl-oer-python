@@ -44,3 +44,21 @@ def generate(data):
     data['params']['result'] = eval(expr_str)
     extra_feedback = " and unary minus of left operand" if ((b < 0) and '**' in expr_str) else ''
     data['correct_answers']['feedback'] = '{} is one correct answer. There may be others.<br>'.format(missing_input) + template[1] + extra_feedback + '.'
+
+def parse(data):
+    try:
+        int(data["submitted_answers"]["y"])
+    except:
+        data["format_errors"]["y"] = "Not a valid integer"
+
+
+def grade(data):
+    y = int(data["submitted_answers"]["y"])
+    x = eval(data['params']['expression'])    
+    correct = data['params']['result']
+    data["score"] = 1 if (x == correct) else 0
+    data["partial_scores"]["result"] = { "score": data["score"] }
+    
+    
+    
+    
