@@ -1,5 +1,4 @@
 import random, copy, json, yaml, os
-from pythonHelper import *
 
 questions = []
 for f in os.listdir("question_contents/"):
