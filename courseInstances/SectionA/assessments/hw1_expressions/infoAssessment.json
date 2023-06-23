@@ -1,10 +1,9 @@
 {
     "uuid": "1d16ff2f-07a7-4a58-a5c2-3212110e8bf6",
     "type": "Homework",
-    "title": "Homework 1",
+    "title": "Question Bank",
     "set": "Homework",
     "number": "1",
-    "maxPoints": 75,
     "allowAccess": [
         {
             "mode": "Public",
@@ -27,5 +26,7 @@
                 { "id": "fstrings",                       "points": 5, "maxPoints": 15}
             ]
         }
-    ]
+    ],
+    "text": "<p>This assignment includes all the questions available in the template course Introductory Python.</p><p>You can copy any of these questions to your course repository, and add them to different assessments.</p>"
 }
+
