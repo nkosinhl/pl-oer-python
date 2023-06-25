@@ -45,3 +45,6 @@ def generate(data):
     data['params']['incorrect'] = answers[1]
     data['correct_answers']['qtype'] = qtype
 
+def fractionOfTime(percent):
+    return random.random() < percent
+
