@@ -12,6 +12,7 @@
     ],
     "zones": [
         {
+	    "title": "Expressions (first week)", 
             "questions": [
                 { "id": "whichVarUpdated",                "points": 1, "maxPoints": 3},
                 { "id": "varReadOrWritten",               "points": 2, "maxPoints": 5},
@@ -21,9 +22,31 @@
                 { "id": "valueOfExpression2",             "points": 3, "maxPoints": 9},
                 { "id": "reverseTracingExpression3",      "points": 3, "maxPoints": 9},
                 { "id": "string_indexing",                "points": 2, "maxPoints": 6},
-                { "id": "valueOfStringAssignment",        "points": 2, "maxPoints": 6},
+                { "id": "valueOfStringAssignment",        "points": 2, "maxPoints": 6}
+            ]
+        },
+        {
+	    "title": "Types", 
+            "questions": [
+                { "id": "typeOfContainer",                "points": 2, "maxPoints": 8},
                 { "id": "list_len",                       "points": 2, "maxPoints": 10},
-                { "id": "fstrings",                       "points": 5, "maxPoints": 15}
+                { "id": "fstrings",                       "points": 5, "maxPoints": 15}	    
+            ]
+        },
+        {
+	    "title": "Conditionals", 
+            "questions": [
+                { "id": "boolean_expressions1",          "points": 1, "maxPoints": 3},
+                { "id": "reverseTracingConditional0",    "points": 2, "maxPoints": 6},
+                { "id": "boolean_operators0",            "points": 1, "maxPoints": 4},
+                { "id": "boolean_expressions5",          "points": 1, "maxPoints": 3},
+                { "id": "boolean_operators2",            "points": 1, "maxPoints": 6},
+                { "id": "valueWithConditionalElse",      "points": 2, "maxPoints": 2},
+                { "id": "parsonsSafeDictDelete",         "points": 5, "maxPoints": 5},		
+                { "id": "boolean_expressions9",          "points": 1, "maxPoints": 3},
+                { "id": "progCondReturnString",          "points": 5, "maxPoints": 5},
+                { "id": "progCondPosOddCheck",           "points": 10, "maxPoints": 10},
+                { "id": "fixGetValueIfKeyExists",        "points": 5, "maxPoints": 5}
             ]
         }
     ],

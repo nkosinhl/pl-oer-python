@@ -13,11 +13,8 @@
     "gradingMethod": "External",
     "externalGradingOptions": {
         "enabled": true,
-        "image": "prairielearn/centos7-python",
-        "serverFilesCourse": [
-            "python_autograder/"
-        ],
-        "entrypoint": "/grade/serverFilesCourse/python_autograder/run.sh",
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
         "timeout": 20
     }
 }
