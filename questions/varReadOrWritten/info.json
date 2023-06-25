@@ -3,11 +3,10 @@
     "title": "Is the variable x being read or written?",
     "topic": "Intro",
     "tags": [
-        "v3",
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
         "MC",
-        "FA19_hw",
-        "SP20_hw",
-        "SU20_hw"
+        "sp20"
     ],
     "type": "v3"
 }

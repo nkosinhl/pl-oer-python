@@ -3,6 +3,8 @@
     "title": "Demo: Craig Testing",
     "topic": "Autograder",
     "tags": [
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
         "code"
     ],
     "type": "v3",

@@ -3,12 +3,10 @@
     "title": "Find Input from Output: Value of a conditional expression",
     "topic": "Conditionals",
     "tags": [
-        "mhassancs",
-        "v3",
-        "Execute",
-        "short_answer",
-        "FA19_hw",
-        "SP20_hw"
+        "author:mhassancs@illinois.edu",
+        "sp20",
+        "license:CC-BY-NC",
+        "short_answer"
     ],
     "type": "v3"
 }

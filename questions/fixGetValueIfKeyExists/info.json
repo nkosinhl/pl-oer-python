@@ -3,12 +3,10 @@
     "title": "Fix code to return the value for a key in a dictionary if it exists",
     "topic": "Conditionals",
     "tags": [
-        "code",
-        "v3",
-        "programming",
-        "fix",
-        "mfwlr",
-        "FA20_hw"
+        "fa20",
+        "author:mfwlr@illinois.edu",
+        "license:CC-BY-NC",
+        "code"
     ],
     "type": "v3",
     "singleVariant": true,

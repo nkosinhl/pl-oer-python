@@ -3,11 +3,10 @@
     "title": "Which variable is being updated?",
     "topic": "Intro",
     "tags": [
-        "v3",
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
         "MC",
-        "FA19_hw",
-        "SP20_hw",
-        "SU20_hw"
+        "sp20"
     ],
     "type": "v3"
 }

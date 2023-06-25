@@ -3,9 +3,9 @@
     "title": "Returns a string depending on number",
     "topic": "Conditionals",
     "tags": [
-        "code",
-        "v3",
-        "programming"
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
+        "code"
     ],
     "type": "v3",
     "singleVariant": true,

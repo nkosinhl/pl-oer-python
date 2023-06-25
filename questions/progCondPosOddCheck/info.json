@@ -4,12 +4,9 @@
     "topic": "Conditionals",
     "tags": [
         "code",
-        "v3",
-        "programming",
-        "mfwlr",
-        "Base",
-        "SP20_hw",
-        "SU20_hw"
+        "sp20",
+        "author:mfwlr@illinois.edu",
+        "license:CC-BY-NC"
     ],
     "type": "v3",
     "singleVariant": true,

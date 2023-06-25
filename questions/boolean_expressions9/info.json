@@ -3,11 +3,10 @@
     "title": "Boolean expressions (within/outside of range)",
     "topic": "Conditionals",
     "tags": [
-        "v3",
-        "TrueFalse",
-        "FA19_hw",
-        "SP20_hw",
-        "SU20_hw"
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
+        "fa19",
+        "TrueFalse"
     ],
     "type": "v3"
 }

@@ -3,12 +3,10 @@
     "title": "String literals with newlines",
     "topic": "Coding",
     "tags": [
-        "v3",
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
         "short_answer",
-        "Base",
-        "FA19_hw",
-        "SP20_hw",
-        "SU20_hw"
+        "sp20"
     ],
     "type": "v3"
 }

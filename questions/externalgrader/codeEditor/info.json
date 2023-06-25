@@ -3,6 +3,8 @@
     "title": "Demo: Fibonacci function, in-browser editor, external grading",
     "topic": "Autograder",
     "tags": [
+        "author:prairielearn.com",
+        "license:CC-BY-NC",
         "code"
     ],
     "type": "v3",
