@@ -1,12 +1,11 @@
 {
     "uuid": "d06a35db-c7ab-4fa5-a396-664132afd91f",
-    "title": "Is the variable x being read or written?",
+    "title": "Syntax: Is the variable x being read or written?",
     "topic": "Intro",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "MC",
-        "sp20"
+        "MC"
     ],
     "type": "v3"
 }

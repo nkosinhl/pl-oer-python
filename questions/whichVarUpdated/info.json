@@ -1,12 +1,11 @@
 {
     "uuid": "858055d8-1445-4736-b059-29c6e76fb0ca",
-    "title": "Which variable is being updated?",
+    "title": "Syntax: Which variable is being updated?",
     "topic": "Intro",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "MC",
-        "sp20"
+        "MC"
     ],
     "type": "v3"
 }

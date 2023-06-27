@@ -1,11 +1,10 @@
 {
     "uuid": "42339afd-dd25-4b11-a8b5-4beac99a6da6",
-    "title": "What is the length of a given list",
-    "topic": "Coding",
+    "title": "Tracing: What is the length of a given list",
+    "topic": "Lists",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "fa19",
         "short_answer"
     ],
     "type": "v3"

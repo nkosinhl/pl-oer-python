@@ -1,11 +1,10 @@
 {
     "uuid": "135ae6c0-b30e-49eb-93eb-225c8f20793b",
-    "title": "Boolean operations (simple ands and ors)",
+    "title": "Tracing: Boolean operations (simple ands and ors)",
     "topic": "Conditionals",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "fa19",
         "TrueFalse"
     ],
     "type": "v3"

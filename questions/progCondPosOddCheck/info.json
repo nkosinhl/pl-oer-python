@@ -1,10 +1,9 @@
 {
     "uuid": "7583dc34-c313-4f7e-af88-6db33d84c321",
-    "title": "Return whether an input number is odd and positive",
+    "title": "Programming: Return whether an input number is odd and positive",
     "topic": "Conditionals",
     "tags": [
         "code",
-        "sp20",
         "author:mfwlr@illinois.edu",
         "license:CC-BY-NC"
     ],

@@ -1,9 +1,8 @@
 {
     "uuid": "356a4337-fc7e-49ee-827c-9aecfebfe320",
-    "title": "Fix code to return the value for a key in a dictionary if it exists",
+    "title": "Fix: return the value for a key in a dictionary if it exists",
     "topic": "Conditionals",
     "tags": [
-        "fa20",
         "author:mfwlr@illinois.edu",
         "license:CC-BY-NC",
         "code"

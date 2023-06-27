@@ -1,11 +1,10 @@
 {
     "uuid": "d994e9ed-c582-4c59-9ceb-f75804a77e66",
-    "title": "Boolean operations (where precedence matters)",
+    "title": "Tracing: Boolean operations (where precedence matters)",
     "topic": "Conditionals",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "fa19",
         "TrueFalse"
     ],
     "type": "v3"

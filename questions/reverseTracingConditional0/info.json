@@ -1,10 +1,9 @@
 {
     "uuid": "47a5dab4-808a-4e85-b2dd-1950044453d5",
-    "title": "Find Input from Output: Value of a conditional expression",
+    "title": "Reverse Tracing: conditional expression",
     "topic": "Conditionals",
     "tags": [
         "author:mhassancs@illinois.edu",
-        "sp20",
         "license:CC-BY-NC",
         "short_answer"
     ],

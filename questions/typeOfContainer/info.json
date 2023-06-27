@@ -1,12 +1,11 @@
 {
     "uuid": "30f18d6a-4fa1-4661-ba14-0b901ea7138a",
-    "title": "Identify the type of a container",
-    "topic": "Coding",
+    "title": "Types: Identify the type of a container",
+    "topic": "Types",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "MC",
-        "sp20"
+        "MC"
     ],
     "type": "v3"
 }

@@ -1,9 +1,8 @@
 {
     "uuid": "dc30884c-e933-4a0a-8ee8-2e40fca3e26a",
-    "title": "Indexing into strings",
-    "topic": "Coding",
+    "title": "Tracing: indexing into strings",
+    "topic": "Strings",
     "tags": [
-        "sp20",
         "author:prairielearn.com",
         "license:CC-BY-NC",
         "short_answer"

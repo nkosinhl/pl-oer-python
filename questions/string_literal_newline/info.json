@@ -1,12 +1,11 @@
 {
     "uuid": "7b27dba2-e7e7-43dd-9166-40ff97252efb",
-    "title": "String literals with newlines",
-    "topic": "Coding",
+    "title": "Expression: Write a string literal with newlines",
+    "topic": "Strings",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "short_answer",
-        "sp20"
+        "short_answer"
     ],
     "type": "v3"
 }

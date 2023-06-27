@@ -17,7 +17,6 @@
                 { "id": "whichVarUpdated",                "points": 1, "maxPoints": 3},
                 { "id": "varReadOrWritten",               "points": 2, "maxPoints": 5},
                 { "id": "validAssignment",                "points": 1, "maxPoints": 10},
-                { "id": "typeOfExpr",                     "points": 2, "maxPoints": 10},
                 { "id": "string_literal_newline",         "points": 4, "maxPoints": 4},
                 { "id": "valueOfExpression2",             "points": 3, "maxPoints": 9},
                 { "id": "reverseTracingExpression3",      "points": 3, "maxPoints": 9},
@@ -28,6 +27,7 @@
         {
 	    "title": "Types", 
             "questions": [
+                { "id": "typeOfExpr",                     "points": 2, "maxPoints": 10},
                 { "id": "typeOfContainer",                "points": 2, "maxPoints": 8},
                 { "id": "list_len",                       "points": 2, "maxPoints": 10},
                 { "id": "fstrings",                       "points": 5, "maxPoints": 15}	    

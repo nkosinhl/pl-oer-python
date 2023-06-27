@@ -1,12 +1,11 @@
 {
     "uuid": "a5af1c19-5400-4312-84e2-677cab6d3784",
-    "title": "Value of series of string assignments",
-    "topic": "Coding",
+    "title": "Tracing: a series of string assignments",
+    "topic": "Expressions",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "MC",
-        "sp20"
+        "MC"
     ],
     "type": "v3"
 }

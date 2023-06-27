@@ -1,12 +1,11 @@
 {
     "uuid": "05973f75-ab1d-4db3-91fe-30ac05337af0",
-    "title": "Is this a valid assignment?",
+    "title": "Syntax: Is this a valid assignment?",
     "topic": "Intro",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "MC",
-        "sp20"
+        "MC"
     ],
     "type": "v3"
 }

@@ -1,11 +1,10 @@
 {
     "uuid": "d762f68c-2592-4f95-9b79-1f9671d29c30",
-    "title": "Boolean expressions (within/outside of range)",
+    "title": "Tracing: Boolean expressions (within/outside of range)",
     "topic": "Conditionals",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
-        "fa19",
         "TrueFalse"
     ],
     "type": "v3"
