@@ -1,22 +1,15 @@
 {
-    "uuid": "356a4337-fc7e-49ee-827c-9aecfebfe320",
-    "title": "Fix: return the value for a key in a dictionary if it exists",
-    "topic": "Conditionals",
-    "tags": [
-        "author:mfwlr@illinois.edu",
-        "license:CC-BY-NC",
-        "code"
-    ],
-    "type": "v3",
-    "singleVariant": true,
-    "gradingMethod": "External",
-    "externalGradingOptions": {
-        "enabled": true,
-        "image": "prairielearn/centos7-python",
-        "serverFilesCourse": [
-            "python_autograder/"
-        ],
-        "entrypoint": "/grade/serverFilesCourse/python_autograder/run.sh",
-        "timeout": 20
-    }
+  "uuid": "356a4337-fc7e-49ee-827c-9aecfebfe320",
+  "title": "Fix: return the value for a key in a dictionary if it exists",
+  "topic": "Conditionals",
+  "tags": ["author:mfwlr@illinois.edu", "license:CC-BY-NC", "code"],
+  "type": "v3",
+  "singleVariant": true,
+  "gradingMethod": "External",
+  "externalGradingOptions": {
+    "enabled": true,
+    "image": "prairielearn/grader-python",
+    "entrypoint": "/python_autograder/run.sh",
+    "timeout": 20
+  }
 }
