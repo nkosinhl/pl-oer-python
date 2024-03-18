@@ -1,7 +1,7 @@
 {
     "uuid": "4d67c5ac-dfe0-4dc6-a434-dd991c7e5e75",
     "title": "Demo: Fibonacci function, in-browser editor, external grading",
-    "topic": "Autograder",
+    "topic": "Function",
     "tags": [
         "author:prairielearn.com",
         "license:CC-BY-NC",
