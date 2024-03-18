@@ -1,0 +1,17 @@
+{
+    "uuid": "d85c72aa-2cfb-411b-a456-051e603c38bb",
+    "title": "Creating a Student Class",
+    "topic": "Classes",
+    "tags": [
+        "author:yuxuan19@illinois.edu"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 20
+    }
+}

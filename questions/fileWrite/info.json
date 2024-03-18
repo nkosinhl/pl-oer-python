@@ -1,0 +1,17 @@
+{
+    "uuid": "6c31c66d-404c-412d-b605-bb12c35ce0ca",
+    "title": "File Write",
+    "topic": "Files",
+    "tags": [
+        "license:CC-BY-NC"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 20
+    }
+}

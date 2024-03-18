@@ -1,0 +1,17 @@
+{
+    "uuid": "90df2e86-7d9e-4d3c-8340-93662d904f51",
+    "title": "Slicing Strings",
+    "topic": "Strings",
+    "tags": [
+        "author:mattox@illinois.edu"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 20
+    }
+}

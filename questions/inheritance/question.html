@@ -1,0 +1,40 @@
+<pl-question-panel>
+  <h1>Create a parent and a child class</h1>
+  <br>
+  <p>
+    Python classes offer a structured approach to programming, allowing us to encapsulate data and functionality together, 
+    making our code more modular, reusable, and easy to understand. We can create our own objects with its properties and methods using Python classes. 
+	Inheritance is a concept in object-oriented programming, where a new class (subclass/derived class) can inherit attributes and methods from an existing class (base class/parent class).
+  </p>
+  <p>
+    <strong>Part 1: </strong>Create a parent class named <code>Company</code> that has following properties / methods:
+	<ul>
+		<li><strong>name (string)</strong>: representing the name of the company.</li>
+        <li><strong>head (string)</strong> representing the head of the company.</li>
+        <li>The Company parent class should also have a method / function called <code>get_info()</code> that returns a formatted string <code>f"Company:{self.name}|Head:{self.head}"</code>.</li>
+	</ul>
+  </p>
+  <p>
+    <strong>Part 2: </strong>Create a child class named <code>ITCompany</code> that inherits from the <code>Company</code> parent class. The <code>ITCompany</code> class should introduce an additional attribute and method:
+    <ul>
+		<li><strong>services (list)</strong>: representing the services provided by the IT Company.</li>
+		<li>The ITCompany child class should also define a method / function called <code>get_services</code> that returns the list of services offered by the company</li>
+	</ul>
+  </p>
+  <p>
+    <strong>Part 3: </strong>You are given a <code>company_info</code> tuple containing a <strong>name</strong> string, <strong>head</strong> string, and <strong>services</strong> list information of a ITCompany.
+    After you create your ITCompany class, define the ITCompany object <code>it_company_obj</code> using the <code>company_info</code> tuple.
+  </p>
+
+  <p> The setup code gives the following variables: </p>
+  <pl-external-grader-variables params-name="names_for_user"></pl-external-grader-variables>
+  <p> Your code snippet should define the following variables: </p>
+  <pl-external-grader-variables params-name="names_from_user"></pl-external-grader-variables>
+  <pl-file-editor file_name="user_code.py" source-file-name="tests/initial_code.py" ace_mode="ace/mode/python">
+  </pl-file-editor>
+</pl-question-panel>
+
+<pl-submission-panel>
+  <pl-external-grader-results></pl-external-grader-results>
+  <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

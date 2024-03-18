@@ -1,0 +1,17 @@
+{
+    "uuid": "97aae894-728d-4967-850e-f76638a7f59f",
+    "title": "Longest word",
+    "topic": "Functions",
+    "tags": [
+        "author:mattox@illinois.edu"
+    ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 20
+    }
+}

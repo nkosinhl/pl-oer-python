@@ -1,0 +1,15 @@
+{
+    "uuid": "2db7ebe2-bd55-48b7-ad08-8e1f12d8a503",
+    "title": "Coercion",
+    "topic": "Types",
+    "tags": [ "author:mattox@illinois.edu" ],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "timeout": 20
+    }
+}
